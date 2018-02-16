@@ -10,5 +10,4 @@ notifyBtn.addEventListener('click', function (event) {
     win.on('close', function () { win = null; })
     win.loadURL(modalPath)
     win.show()
-
 })
