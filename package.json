@@ -1,13 +1,13 @@
 {
   "name": "CryptoApp",
   "version": "1.0.0",
-  "description": "A basic app to follow the cryptocoins value on Real Time",
+  "description": "A basic app to follow cryptocurrency prices on Real Time.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . CryptoApp --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"CryptoApp\"",
-    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+    "package-mac": "electron-packager . CryptoApp --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.ico --prune=true --out=Crypto-App",
+    "package-win": "electron-packager . CryptoApp --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=Crypto-App --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"CryptoApp\"",
+    "package-linux": "electron-packager . CryptoApp --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/linux/icon.ico --prune=true --out=Crypto-App"
   },
   "keywords": [],
   "author": "",
